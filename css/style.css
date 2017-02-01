@@ -1,0 +1,53 @@
+html,body {
+    overflow: hidden;
+}
+
+.cut {
+    background: blue;
+    height: 90%;
+    width: 25%;
+    overflow: hidden;
+    position: absolute;
+    float: left;
+}
+
+.two {
+    left: 25%;
+}
+
+.three {
+    left:50%;
+}
+
+.four {
+    left: 75%;
+}
+
+.col {
+    background: #000;
+    width: 108%;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+span {
+    position: absolute;
+    z-index: 300;
+    color: #fff;
+    bottom: 10px;
+}
+
+figcaption {
+    color: #fff;
+    position: relative;
+    bottom: 200px;
+    width: 100%;
+    background: rgba(0,0,0,0.75);
+    height: 0;
+    text-align: center;
+}
