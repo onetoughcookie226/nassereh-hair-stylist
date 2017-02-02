@@ -1,38 +1,60 @@
-html,body {
-    overflow: hidden;
+/*----------MEDIA Query_____________*/
+
+@media only screen and (min-width : 640px) {
+    html,body {
+        overflow: hidden;
+    }
+    .cut {
+        background: blue;
+        height: 90%;
+        width: 25%;
+        overflow: hidden;
+        position: absolute;
+        float: left;
+    }
+
+    .two {
+        left: 25%;
+    }
+
+    .three {
+        left:50%;
+    }
+
+    .four {
+        left: 75%;
+    }
+
+    .col {
+        background: #000;
+        width: 108%;
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+    .post img {
+        height: auto;
+        margin-bottom: -5px;
+        width: 100%;
+    }
 }
 
-.cut {
-    background: blue;
-    height: 90%;
-    width: 25%;
-    overflow: hidden;
-    position: absolute;
-    float: left;
+
+/*Second Media */
+
+@media only screen and (max-width : 640px) {
+
+    .hidden-sm {
+        display: none;
+    }
+
 }
 
-.two {
-    left: 25%;
-}
+/*--------------*/
 
-.three {
-    left:50%;
-}
 
-.four {
-    left: 75%;
-}
-
-.col {
-    background: #000;
-    width: 108%;
-    height: 100%;
-    overflow-y: scroll;
-}
-
-.post img {
-    width: 100%;
-    height: auto;
+.post {
+    background-color: white;
 }
 
 span {
@@ -52,29 +74,44 @@ figcaption {
     text-align: center;
 }
 
-
-
 .title {
-    color: darkslategrey;
-    font-style: unset;
+    background: white none repeat scroll 0 0;
+    font-family: "sheraton", Georgia, serif;
+    padding: 30px;
+    max-height: 210px;
 }
 
+.prices {
+    background: white none repeat scroll 0 0;
+    font-family: "sheraton",Georgia,serif;
+    padding: 30px;
+    max-height: 210px;
+
+}
 
 .info {
     background: white none repeat scroll 0 0;
     font-family: Georgia;
     padding: 30px;
+
 }
 
 .contact {
     background: white none repeat scroll 0 0;
     font-family: "sheraton",Georgia,serif;
-    padding: 30px;
+    padding: 10px;
+    max-height: 210px;
 
 }
 
+.contact a {
+
+    text-decoration: none;
+    color: black;
+}
 
 ul
 {
     list-style-type: none;
 }
+
