@@ -6,7 +6,7 @@
     }
     .cut {
         background: blue;
-        height: 90%;
+        height: 100%;
         width: 25%;
         overflow: hidden;
         position: absolute;
@@ -74,9 +74,14 @@ figcaption {
     text-align: center;
 }
 
+.title > h2 {
+    font-family: Arial, Helvetica, "Sans Serif";
+    text-shadow: 4px 4px 4px #aaa;
+}
+
 .title {
     background: white none repeat scroll 0 0;
-    font-family: "sheraton", Georgia, serif;
+    /*font-family: "sheraton", Georgia, serif;*/
     padding: 30px;
     max-height: 210px;
 }
@@ -87,6 +92,10 @@ figcaption {
     padding: 30px;
     max-height: 210px;
 
+}
+
+.prices > h4 {
+    padding-top: 30px ;
 }
 
 .info {
