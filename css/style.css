@@ -102,7 +102,6 @@ figcaption {
     background: white none repeat scroll 0 0;
     font-family: Georgia;
     padding: 30px;
-
 }
 
 .contact {
@@ -110,6 +109,11 @@ figcaption {
     font-family: "sheraton",Georgia,serif;
     padding: 10px;
     max-height: 210px;
+
+}
+
+.contact > h4 {
+    padding: 5px 20px 5px 20px;
 
 }
 
