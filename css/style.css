@@ -1,4 +1,4 @@
-/*----------MEDIA Query_____________*/
+/*----------MEDIA Queries_____________*/
 
 @media only screen and (min-width : 640px) {
     html,body {
@@ -28,7 +28,7 @@
     .col {
         background: #000;
         width: 108%;
-        height: 120%;
+        height: 100%;
         overflow-y: scroll;
     }
 
@@ -77,29 +77,43 @@ figcaption {
 /*}*/
 
 .title > h2 {
-    font-family: Arial, Helvetica, "Sans Serif";
+
+    font-family: 'Crimson Text', serif;
     text-shadow: 4px 4px 4px #aaa;
+}
+
+#one > .title > .sub {
+    /*font-family: 'Italiana', serif;*/
+    font-family: 'Crimson Text', serif;
+
 }
 
 .title {
     background: white none repeat scroll 0 0;
-    /*font-family: "sheraton", Georgia, serif;*/
+    font-family: 'Lato', sans-serif;
     padding: 30px;
     /*min-height: 210px;*/
 }
 
 .prices {
     background: white none repeat scroll 0 0;
-    font-family: "sheraton",Georgia,serif;
-    padding: 30px;
+    font-family: 'Lato', sans-serif;
+    padding: 15px 30px 60px;
     /*min-height: 210px;*/
 
 }
 
 .prices > h4 {
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
     padding-top: -15px;
     margin-top: 33px;
 
+}
+
+table.tg {
+    padding-left: 30px;
+    font-family: 'Lato', sans-serif;
 }
 
 
@@ -109,6 +123,9 @@ figcaption {
 }
 
 
+/*#three > .prices > ul > li:last-child {*/
+    /*display: none; */
+/*}*/
 
 
 
@@ -122,26 +139,37 @@ figcaption {
     background: white none repeat scroll 0 0;
     font-family: "sheraton",Georgia,serif;
     padding: 10px;
-    max-height: 210px;
+    padding-bottom: 0;
+    /*max-height: 200px;*/
 
 }
 
 .contact > h4 {
-    color: dimgray;
+    font-family: 'Crimson Text', serif;
+    font-weight: 600;
     padding: 5px 20px 5px 20px;
     margin-bottom: 5px;
 
 }
 
-
 .contact a {
-
     text-decoration: none;
     color: black;
+}
+
+.contact > .title > ul {
+    padding-left: 0px;
+}
+
+.contact > .title > ul > li:first-child {
+    margin-bottom: 5px;
+}
+.contact > .title > ul > li:last-child {
+    margin-top: 3px;
+    font-size: 13px;
 }
 
 ul {
     list-style-type: none;
     margin-top: -16px;
 }
-
