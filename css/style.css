@@ -11,7 +11,7 @@
         max-width: 2000px;
         max-height: 900px;
     }
-    
+
     .cut {
         background: blue;
         height: 100%;
@@ -96,6 +96,21 @@
     .hidden-sm {
         display: none;
     }
+
+    .post {
+        background-color: white;
+
+    }
+
+    .post > img {
+        width: 100%;
+    }
+
+    .post > .prices {
+        font-size: 26px;
+    }
+
+
 }
 
 /*--------------*/
