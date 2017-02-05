@@ -1,6 +1,41 @@
 /*----------MEDIA Queries_____________*/
 
-@media only screen and (min-width : 640px) {
+
+@media only screen and (min-width : 2000px) {
+    html,body {
+        overflow: hidden;
+        margin: 0;
+    }
+
+    .container-fluid {
+        max-width: 2000px;
+        max-height: 900px;
+    }
+
+    .cut {
+        background: blue;
+        height: 100%;
+        width: 25%;
+        overflow: hidden;
+        position: absolute;
+        float: left;
+    }
+
+    .two {
+        left: 25%;
+    }
+
+    .three {
+        left:50%;
+    }
+
+    .four {
+        left: 75%;
+    }
+}
+
+/*----REGULAR SCREEN----*/
+@media only screen and (min-width : 1000px) and (max-width: 1580px) {
     html,body {
         overflow: hidden;
         margin: 0;
@@ -26,6 +61,11 @@
         left: 75%;
     }
 
+}
+
+/* medium and large */
+@media only screen and (min-width : 1000px) {
+
     .col {
         background: #000;
         width: 108%;
@@ -41,13 +81,12 @@
 
 
     .prices {
-        padding: 15px 30px 60px;
+        padding: 15px 30px 30px;
     }
 }
+/*----------SMALL SCREEN------ */
 
-/*Second Media */
-
-@media only screen and (max-width : 640px) {
+@media only screen and (max-width: 1000px) {
 
 
     .prices {
@@ -57,6 +96,21 @@
     .hidden-sm {
         display: none;
     }
+
+    .post {
+        background-color: white;
+
+    }
+
+    .post > img {
+        width: 100%;
+    }
+
+    .post > .prices {
+        font-size: 26px;
+    }
+
+
 }
 
 /*--------------*/
@@ -123,7 +177,7 @@ figcaption {
 }
 
 table.tg {
-    padding-left: 30px;
+    padding-left: 20px;
     font-family: 'Lato', sans-serif;
 }
 
