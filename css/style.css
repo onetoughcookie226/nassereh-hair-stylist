@@ -1,6 +1,41 @@
 /*----------MEDIA Queries_____________*/
 
-@media only screen and (min-width : 640px) and (max-height: 930px){
+
+@media only screen and (min-width : 2000px) {
+    html,body {
+        overflow: hidden;
+        margin: 0;
+    }
+
+    .container-fluid {
+        max-width: 2000px;
+        max-height: 900px;
+    }
+    
+    .cut {
+        background: blue;
+        height: 100%;
+        width: 25%;
+        overflow: hidden;
+        position: absolute;
+        float: left;
+    }
+
+    .two {
+        left: 25%;
+    }
+
+    .three {
+        left:50%;
+    }
+
+    .four {
+        left: 75%;
+    }
+}
+
+/*----REGULAR SCREEN----*/
+@media only screen and (min-width : 1000px) and (max-width: 1580px) {
     html,body {
         overflow: hidden;
         margin: 0;
@@ -26,6 +61,11 @@
         left: 75%;
     }
 
+}
+
+/* medium and large */
+@media only screen and (min-width : 1000px) {
+
     .col {
         background: #000;
         width: 108%;
@@ -44,10 +84,9 @@
         padding: 15px 30px 30px;
     }
 }
+/*----------SMALL SCREEN------ */
 
-/*Second Media */
-
-@media only screen and (max-width : 640px) and (min-height: 930px) {
+@media only screen and (max-width: 1000px) {
 
 
     .prices {
