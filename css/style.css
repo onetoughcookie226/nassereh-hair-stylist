@@ -1,6 +1,6 @@
 /*----------MEDIA Queries_____________*/
 
-@media only screen and (min-width : 640px) {
+@media only screen and (min-width : 640px) and (max-height: 930px){
     html,body {
         overflow: hidden;
         margin: 0;
@@ -123,7 +123,7 @@ figcaption {
 }
 
 table.tg {
-    padding-left: 30px;
+    padding-left: 20px;
     font-family: 'Lato', sans-serif;
 }
 
