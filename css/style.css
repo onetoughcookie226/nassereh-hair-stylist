@@ -88,6 +88,9 @@
 
 @media only screen and (max-width: 1000px) {
 
+    .post > .title {
+        font-size: 1.6em;
+    }
 
     .prices {
         padding: 15px 30px 0px;
@@ -106,9 +109,13 @@
         width: 100%;
     }
 
-    .post > .prices {
-        font-size: 26px;
+    .post  {
+        font-size: 1.4em;
     }
+
+
+
+
 
 
 }
