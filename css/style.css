@@ -41,13 +41,13 @@
 
 
     .prices {
-        padding: 15px 30px 60px;
+        padding: 15px 30px 30px;
     }
 }
 
 /*Second Media */
 
-@media only screen and (max-width : 640px) {
+@media only screen and (max-width : 640px) and (min-height: 930px) {
 
 
     .prices {
