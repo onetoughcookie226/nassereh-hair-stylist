@@ -1,5 +1,5 @@
 /*----------MEDIA Queries_____________*/
-
+/*---------------------- Large screen----------------*/
 
 @media only screen and (min-width : 2000px) {
     html,body {
@@ -34,7 +34,7 @@
     }
 }
 
-/*----REGULAR SCREEN----*/
+/*----MEDIUM SCREEN--------------------*/
 @media only screen and (min-width : 1000px) and (max-width: 1580px) {
     html,body {
         overflow: hidden;
@@ -64,7 +64,7 @@
 
 }
 
-/* medium and large */
+/* medium and large have in common ******************************************/
 @media only screen and (min-width : 1000px) {
 
     .col {
@@ -132,9 +132,6 @@
     }
 
 
-
-
-
 }
 
 /*--------------*/
@@ -154,7 +151,7 @@ span {
 figcaption {
     color: #fff;
     position: relative;
-    bottom: 200px;
+    bottom: 67px;
     width: 100%;
     background: rgba(0,0,0,0.75);
     height: 0;
