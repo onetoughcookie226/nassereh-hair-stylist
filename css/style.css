@@ -96,10 +96,17 @@
         font-size: 1.6em;
     }
 
-    .title > h2 {
+    .title > .header-wrapper > h2 {
         margin-top: 7px;
-
+        display: inline;
     }
+
+    img.logo {
+
+        width: 80px;
+        height: 80px;
+    }
+
 
     .prices {
         padding: 15px 30px 0px;
@@ -130,10 +137,14 @@
     .post  {
         font-size: 1.4em;
     }
-
-
+    a {
+        color:white;
+        text-decoration: none;
+    }
+    a:visited{
+        color:darkgray;
+    }
 }
-
 /*--------------*/
 
 
@@ -162,7 +173,7 @@ figcaption {
     /*min-height: 213px;*/
 /*}*/
 
-.title > h2 {
+.title > .header-wrapper > h2 {
 
     font-family: 'Crimson Text', serif;
     text-shadow: 4px 4px 4px #aaa;
