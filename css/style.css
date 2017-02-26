@@ -258,10 +258,10 @@ table.tg {
     padding-left: 0px;
 }
 
-.contact > .title > ul > li:first-child {
+.contact > .title > ul li:first-child {
     margin-bottom: 5px;
 }
-.contact > .title > ul > li:last-child {
+.contact > .title > ul li:last-child {
     margin-top: 3px;
     font-size: 13px;
 }
@@ -269,4 +269,12 @@ table.tg {
 ul {
     list-style-type: none;
     margin-top: -16px;
+}
+
+/*hide underline on clicked link*/
+a:active,
+a:focus {
+    outline:0;
+    border:none;
+    -moz-outline-style: none;
 }
